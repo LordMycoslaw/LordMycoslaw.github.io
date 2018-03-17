@@ -1,11 +1,33 @@
-/*body{background-color: cyan}*/
-#test{
-	max-width: 60%; text-align: justify;
-}
-.formularz{
-	background-color: azure;
-}
-h3:hover {
+body {
 	color: red;
-	font-style: italic;
+}
+
+h1{
+	font-size: 50px;
+	color: purple;
+}
+
+main div {
+	display: inline-block;
+}
+
+.kwadrat {
+	background-color: cyan;
+	height: 200px;
+	width: 200px;
+	margin: 2px;
+}
+
+#jeden{
+	font-size: 20px;
+}
+
+img:hover {
+	border-radius: 50%
+}
+
+header {
+	border: 2px solid green;
+	position: sticky;
+	top: 0;
 }
